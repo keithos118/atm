@@ -1,0 +1,15 @@
+To compile the application, enter:
+	javac UserInterface.java
+
+To run the application, enter:
+	java UserInterface
+
+To compile the Unit Tests, enter:
+	javac -cp '.:junit-4.10.jar' UnitTest.java
+
+To run the unit tests:
+	java -cp '.:junit-4.10.jar' junit.textui.TestRunner UnitTest
+
+To run the application via docker, execute the follwing steps:
+	sudo docker build -t atmapplication .
+	sudo docker run -i atmapplication
